@@ -6,6 +6,14 @@ import PeopleForm from "./PeopleForm";
 import { initialTasks, initialTeam } from "./data";
 import { toast } from 'react-toastify';
 
+//---------------------------//
+// import { addDays } from 'date-fns';
+
+// const today = new Date();
+// const deadline = addDays(today, 3);
+
+// console.log(deadline);
+//---------------------------//
 
 function App() {
   const [tasks, setTasks] = useState(initialTasks);
@@ -30,6 +38,9 @@ function App() {
 
   return (
     <div className="app">
+      {/* tailwindcss */}
+
+     {/* tailwindcss */}
       <div className="formColumn">
         <div className="form-container">
           <h2>Yeni Task</h2>
